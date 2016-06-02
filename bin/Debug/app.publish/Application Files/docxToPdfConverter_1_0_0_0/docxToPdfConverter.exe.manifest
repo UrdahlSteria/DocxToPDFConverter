@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="docxToPdfConverter.exe" version="1.0.0.0" publicKeyToken="4a0e569dac6c3202" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="doc-pdf.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="docxToPdfConverter" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="docxToPdfConverter.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="docxToPdfConverter.exe" size="51120">
+      <assemblyIdentity name="docxToPdfConverter" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>1bbFXosdId6wxKKc01pXfcOhY0nPu1/NMeb+TQu1ANg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="doc-pdf.ico" size="16958">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hoYIn4lDXS/sHegS/V5jJO8hmbYW3RP1X/tjZhSrA94=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="docxToPdfConverter.exe.config" size="180">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>II3wFUyfmVbv5V5BdaCrEJhCVMkC3iru/7nCXj/oMbY=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=AD-ONE\ourdal" issuerKeyHash="99899cfda955f99599ffc1d64900ac090716d215" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>7Jd3IGhlg4+ocPfOxG2PKLbS/3tChTqPrAf9l4NtgT8=</DigestValue></Reference></SignedInfo><SignatureValue>OlELCHGhxW/UfZHCALIucrM6A9YnAF3aZRkgdoUjMj0i39iNz6Rf4cOzf98JEmtQfLaUbjHtiBJsk8DexMpurB26+H/ylj1zYRGj1tF70HtBapvsvlJSUByq9FEsw0AztRwZoYGFWAFBuB1gbVmkOY2cIbUHSKvQzLdWtGkN3HM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ut8VbNR1QL+JTrS/p8A0OQ+Yb7Al+YUE/XAj6uLgQuomBWsWgijU6QujPw5sYp/MxQup5D8/Z5Qbut2ICxdD8IZCzAMi26G2FQ/lvt+qti5ybv1RojBTHqklIcMRCbNsXaQozmUdVDw53jcUVYI1jkrPTeU5wZIMSxhgx26ixhs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3f816d8397fd07ac8f3a85427bffd2b6288f6dc4cef770a88f836568207797ec" Description="" Url=""><as:assemblyIdentity name="docxToPdfConverter.exe" version="1.0.0.0" publicKeyToken="4a0e569dac6c3202" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AD-ONE\ourdal</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>A+n7NGm9tp2v/gel9d8Oj84OQlY2pPFpH+XlpYhDsao=</DigestValue></Reference></SignedInfo><SignatureValue>fnUak7hPXBVJPdjfpeVmhqqfkDrkUZBBOcJ0JP8N6HRD51kQyyF3Q7ddm6E9oS/yuMkc2R5iGEwXlXnWq5avhN6fzAIlMxQniGwy5RXHgSRpj0PO0S9istmBYooFnVlojx9NiTFw6HvLz7s014Pb5MxOF3bBpgrhpPtQWo1kqME=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ut8VbNR1QL+JTrS/p8A0OQ+Yb7Al+YUE/XAj6uLgQuomBWsWgijU6QujPw5sYp/MxQup5D8/Z5Qbut2ICxdD8IZCzAMi26G2FQ/lvt+qti5ybv1RojBTHqklIcMRCbNsXaQozmUdVDw53jcUVYI1jkrPTeU5wZIMSxhgx26ixhs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQfMNACUevmqxLCBXvzmDuyDANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoAQQBEAC0ATwBOAEUAXABvAHUAcgBkAGEAbDAeFw0xNjA0MjUwNzQ2NDJaFw0xNzA0MjUxMzQ2NDJaMCUxIzAhBgNVBAMeGgBBAEQALQBPAE4ARQBcAG8AdQByAGQAYQBsMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC63xVs1HVAv4lOtL+nwDQ5D5hvsCX5hQT9cCPq4uBC6iYFaxaCKNTpC6M/Dmxin8zFC6nkPz9nlBu63YgLF0PwhkLMAyLbobYVD+W+36q2LnJu/VGiMFMeqSUhwxEJs2xdpCjOZR1UPDneNxRVgjWOSs9N5TnBkgxLGGDHbqLGGwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAHvYzI6wy5umDWz6lmKrSPl+rebrFPfKayvQ/P19eFepCjODcETDARYUBoSVUTO1RmVYfedGnDOFFEmg7AnNIcGWn4xl4TnvenNo9KimlIOSRtk2uRzag/oba0JXsdY8IaxnJfjVanqqFEveTd9muHWtMvmnX4hIpRMVflXyQp8i</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
